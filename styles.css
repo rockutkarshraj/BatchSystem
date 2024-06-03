@@ -1,0 +1,483 @@
+body{
+    padding-left: 150px;
+    background-color: #FFFFFF;
+    
+}
+.wrapper{
+    font-size: 30px;
+}
+nav{
+    display: flex;
+    word-spacing: 20px;
+    
+}
+ul{
+    padding-top :35px;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    padding-top: 50px;
+}
+.company-name{
+    font-family: Arial;
+    line-height:3;
+    font-weight: 900;
+    font-size: 50px;
+    color: #000;
+}
+.company-name sup {
+    font-weight: normal;
+    font-size: 10px;
+}
+li{
+    display: inline;
+}
+.download-button{
+    border: 25px solid black;
+    background-color: black;
+    border-radius: 10px;
+    width: 150px;
+    color: white;
+    text-align:right;
+    position: absolute; /* Positioning the button */
+    right: 14%; /* Aligning it to the right */
+    top: 5%; /* Centering it vertically (optional) */
+    text-align: center;
+   
+    
+}
+.star1{
+    position: absolute; /* Positioning the button */
+    right: 4%; /* Aligning it to the right */
+    top: 8%; /* Centering it vertically (optional) */
+    text-align: center;
+    height: 90px;
+    
+    
+}
+.star2{
+    height: 60px;
+    transform: rotate(30deg);
+    position: absolute; /* Positioning the image absolutely */
+    left: 2%; /* Aligning it to the left */
+    top: 20%;
+    
+}
+.ellipse1 {
+    width: 320px; /* Adjust width as needed */
+    height: 250px; /* Adjust height as needed */
+    border-radius: 50%;
+    /* Display as inline block to place them side by side */
+    background-color: #f75a5a; 
+    filter: blur(30px);
+    position: absolute;
+    top:20%;
+    left:20%;
+    
+    z-index: -1;
+}
+.ellipse2 {
+    width: 320px; /* Adjust width as needed */
+    height: 250px; /* Adjust height as needed */
+    border-radius: 50%;
+    /* Display as inline block to place them side by side */
+    background-color: #FDE598; 
+    filter: blur(30px);
+    position: absolute;
+    top:30%;
+    left:20%;
+    
+    z-index: -2;
+}
+.t1{
+    font-weight: 900;
+    font-size: 80px;
+    
+}
+.button2{
+    border: 25px solid black;
+    background-color: black;
+    border-radius: 10px;
+    width: 180px;
+    color: white;
+    position: absolute;
+    text-align:center;
+    left:8.3%;
+    
+}
+.button-icon{
+    display: flex;
+    
+    column-gap: 130px;
+    
+}
+.play{
+    font-size: 30px;
+    position: relative;
+    left:120px;
+    top:20px;
+}
+.watch{
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    top:20px;
+    font-weight: 100;
+}
+
+.image3{
+    position: absolute;
+    top:80px;
+    left:48%;
+    height: 1000px;
+
+}
+.image2{
+    position: absolute;
+    top:210px;
+    left:56%;
+    height: 1000px;
+   
+}
+.image1{
+    position: absolute;
+    left: 1210px;
+    top:310px;
+    height:1000px;
+}
+.image4{
+    position: relative;
+    left: 820px;
+    top:-520px;
+    z-index: -1;
+    height: 950px;
+}
+.ellipse3 {
+    width: 620px; /* Adjust width as needed */
+    height: 340px; /* Adjust height as needed */
+    border-radius: 50%;
+    /* Display as inline block to place them side by side */
+    background-color: #f75a5a; 
+    filter: blur(30px);
+    position: absolute;
+    top:80%;
+    left:60%;
+    z-index: -1;
+    
+}
+.ellipse4 {
+    width: 320px; /* Adjust width as needed */
+    height: 250px; /* Adjust height as needed */
+    border-radius: 50%;
+    /* Display as inline block to place them side by side */
+    background-color: #FDE598; 
+    filter: blur(30px);
+    position: absolute;
+    top:100%;
+    left:20%;
+    
+    
+}
+.star3{
+    height: 60px;
+    transform: rotate(10deg);
+    position: absolute; /* Positioning the image absolutely */
+    top:920px;
+    left:60%;
+}
+.text1{
+    font-weight: bolder;
+    font-size: 155px;
+    display: inline-block;
+    transform: rotate(-30deg);
+    position: absolute;
+    top:106%;
+    left:206px;
+}
+.star4{
+    height: 60px;
+    
+    position: absolute; /* Positioning the image absolutely */
+    top:910px;
+    left:40%;
+}
+.star8{
+    height: 60px;
+    transform: rotate(30deg);
+    position: absolute; /* Positioning the image absolutely */
+    top:790px;
+    left:16%;
+}
+.rotate-text {
+    display: flex;;
+    font-weight: bold;
+    display: inline-block;
+    transform: rotate(-45deg);
+    color: black;
+    margin-right: 10px; /* Optional: to add some space between the rotated text and the rest */
+}
+
+.box{
+    font-size:100px;
+    display: flex;
+    border: 25px solid black;
+    background-color: black;
+    border-radius: 10px;
+    width: 680px;
+    
+    color: white;
+    padding-left: 40px;
+    font-size: 15px;
+    transform: rotate(-30deg);
+    position: relative;
+    left:3%;
+    top: -820px;
+    gap: 290px;
+}
+.image5{
+    position: relative;
+    top:-729px;
+    left: 6%;
+    height: 60px;
+    width: 60px;
+    z-index: 1;
+}
+.image6{
+    position: relative;
+    top:-965px;
+    left: 26%;
+    height: 60px;
+    width: 60px;
+    z-index: 1;
+}
+.box2{
+    font-size:100px;
+    display: flex;
+    border: 25px solid orangered;
+    background-color: orangered;
+    border-radius: 10px;
+    width: 320px;
+    text-align: center;
+    font-size:;
+    color: black;
+    padding-left: 40px;
+    font-size: 15px;
+    transform: rotate(-50deg);
+    position: relative;
+    left:25%;
+    top: -1020px;
+    gap: 290px;
+    z-index: -1;
+}
+.box3{
+    font-size:100px;
+    
+    border: 25px solid orangered;
+    background-color: orangered;
+    border-radius: 10px;
+    width: 240px;
+    height: 40px;
+    padding-right:0;
+    
+    color: black;
+    
+    font-size: 20px;
+    
+     position: relative;
+    left:31%;
+    top: -970px;
+    gap: 290px;
+    z-index: -2;
+}
+.box3 p,h4{
+    margin-left: 100px;
+    text-align: centre;
+    position: relative;
+    top:-120%;
+    left:20px;
+    
+}
+.image7{
+    position: absolute;
+    left: 100px;
+    top:160%;
+    height:1000px;
+    transform: rotate(14deg);
+}
+.image8{
+    position: relative;
+    left: -180px;
+    top:-650px;
+    z-index: -1;
+    height: 950px;
+}
+.star5{
+    height: 60px;
+    position: absolute;
+    top:1600px;
+    left:20px;
+    transform: rotate(-30deg);
+     /* Positioning the image absolutely */
+    
+}
+.ellipse5 {
+    width: 440px; /* Adjust width as needed */
+    height: 340px; /* Adjust height as needed */
+    border-radius: 50%;
+    /* Display as inline block to place them side by side */
+    background-color: #f75a5a; 
+    filter: blur(30px);
+    position: absolute;
+    top:180%;
+    left:10%;
+    z-index: -1;
+    
+}
+.ellipse6 {
+    width: 390px; /* Adjust width as needed */
+    height: 250px; /* Adjust height as needed */
+    border-radius: 50%;
+    /* Display as inline block to place them side by side */
+    background-color: #FDE598; 
+    filter: blur(30px);
+    position: absolute;
+    top:165%;
+    left:10%;
+    z-index: -2;
+    
+}
+.para{
+    position: absolute;
+    text-align: left; /* Align text within the div to the right */
+     /* Set a max-width if needed */
+    margin-left: 800px; /* Push the element to the right */
+    top:1450px;
+
+    justify-content: left;
+}
+.para h1{
+    font-size:60px;
+    font-weight:bolder ;
+    text-align: left;
+}
+.para p,h2{
+    font-size:25px;
+}
+.para h2,icons{
+    display:inline-flex;
+
+}
+.ellipse7 {
+    width: 440px; /* Adjust width as needed */
+    height: 340px; /* Adjust height as needed */
+    border-radius: 50%;
+    /* Display as inline block to place them side by side */
+    background-color: #FDE598; 
+    filter: blur(30px);
+    position: absolute;
+    top:180%;
+    left:95%;
+    z-index: 1;
+    
+}
+.ellipse8 {
+    width: 390px; /* Adjust width as needed */
+    height: 250px; /* Adjust height as needed */
+    border-radius: 50%;
+    /* Display as inline block to place them side by side */
+    background-color: #f75a5a; 
+    filter: blur(30px);
+    position: absolute;
+    top:165%;
+    left:95%;
+    z-index: -2;
+    
+}
+.para2{
+    position: absolute;
+   /* Align text within the div to the right */
+     /* Set a max-width if needed */
+    margin-left: 0px; /* Push the element to the right */
+    top:280%;
+}
+.para2 h1{
+    
+    text-align: left; 
+    font-weight: 100px;
+    font-size: 60px;
+}
+.para2 p{
+    font-size:25px;
+}
+.para2 h2{
+    font-weight: bolder;
+    font-size:40px;
+}
+.para2 h2,noti{
+    display:inline;
+    }
+.image9{
+    position: absolute;
+    left: 90%;
+    top:-12%;
+    height:1000px;
+    transform: rotate(14deg);
+}
+.image10{
+    position: relative;
+    left: 680px;
+    top:-650px;
+    z-index: -1;
+    height: 950px;
+}
+.image11{
+    position: absolute;
+    left: 120%;
+    top:14%;
+    height:200px ;
+    z-index: 1;
+}
+.ellipse9 {
+    width: 400px; /* Adjust width as needed */
+    height: 340px; /* Adjust height as needed */
+    border-radius: 50%;
+    /* Display as inline block to place them side by side */
+    background-color: #f75a5a; 
+    filter: blur(30px);
+    position: absolute;
+    top:8%;
+    left:100%;
+    z-index: -1;
+    
+}
+.ellipse10 {
+    width: 390px; /* Adjust width as needed */
+    height: 250px; /* Adjust height as needed */
+    border-radius: 50%;
+    /* Display as inline block to place them side by side */
+    background-color: #FDE598; 
+    filter: blur(30px);
+    position: absolute;
+    top:25%;
+    left:95%;
+    z-index: -2;
+    
+}
+.para3 h3,h1{
+    text-align: center;
+}
+.star6{
+    height: 60px;
+    position: absolute;
+    top:-100px;
+    left:170%;
+}
+.star7{
+    height: 60px;
+    position: absolute;
+    top:600px;
+    left:60%;
+    transform: rotate(-30deg);
+}
